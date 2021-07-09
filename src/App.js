@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './components/1/helloComponent'
+import DisplayProps from './components/3/displayNameUsingProps';
+import DemoParent from './components/2/demoParent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,9 +20,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
       <div>
-        <Hello></Hello>
+        <Hello ></Hello>
+        <DisplayProps name="Kaushal" lastName="Pareek"></DisplayProps>
+      </div>
+      <div>
+        <DemoParent></DemoParent> 
       </div>
     </div>
   );
