@@ -3,6 +3,8 @@ import './App.css';
 import Hello from './components/1/helloComponent'
 import DisplayProps from './components/3/displayNameUsingProps';
 import DemoParent from './components/2/demoParent';
+import CounterWithVariable from './components/4/counterWithVariable';
+import CounterWithState from './components/4/counterWithstate';
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
       </div>
       <div>
         <DemoParent></DemoParent> 
+      </div>
+      <div>
+        <CounterWithVariable></CounterWithVariable>
+      </div>
+      <div>
+        <CounterWithState></CounterWithState>
       </div>
     </div>
   );
